@@ -6,7 +6,7 @@ A set of scripts to download yearly weather data from EUROCORDEX website for any
 Downloading WeatherFiles from EURO-CORDEX from CDS portal 
 https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.bc91edc3?tab=form 
 
-Downloading 6 climate variables (dry-bulb temperature, relative humidity, global solar radiation, cloud cover , atmospheric pressure , and wind speed) for each year of your chosen climate model.
+Download 6 climate variables (dry-bulb temperature, relative humidity, global solar radiation, cloud cover , atmospheric pressure , and wind speed) for each year of your chosen climate model.
 
  1- A function to transform rlat/rlon to lat/lon and vice versa: this step is necessary because some of EURO-CORDEX files are projected on rlat/rlon coordinates system 
  
