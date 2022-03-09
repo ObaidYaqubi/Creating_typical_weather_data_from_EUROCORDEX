@@ -1,7 +1,7 @@
 # Creating_typical_weather_data_from_EUROCORDEX
 A set of scripts to download yearly weather data from EUROCORDEX website for any location in EUROPE, and Transforming yearly data into a typical year 
 
-# Downloading and Creating Typical weather file from EURO-CORDEX climate data repository is explained in three steps using three ipynp files here.
+## Downloading and Creating Typical weather file from EURO-CORDEX climate data repository is explained in three steps using three ipynp files here.
 
 Downloading WeatherFiles from EURO-CORDEX from CDS portal 
 https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.bc91edc3?tab=form 
