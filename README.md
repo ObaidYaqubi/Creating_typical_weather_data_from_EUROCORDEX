@@ -3,6 +3,11 @@ A set of scripts to download yearly weather data from EUROCORDEX website for any
 
 # Downloading and Creating Typical weather file from EURO-CORDEX climate data repository is explained in three steps using three ipynp files here.
 
+Downloading WeatherFiles from EURO-CORDEX from CDS portal 
+https://cds.climate.copernicus.eu/cdsapp#!/dataset/10.24381/cds.bc91edc3?tab=form 
+
+Downloading 6 climate variables (dry-bulb temperature, relative humidity, global solar radiation, cloud cover , atmospheric pressure , and wind speed) for each year of your chosen climate model.
+
  1- A function to transform rlat/rlon to lat/lon and vice versa: this step is necessary because some of EURO-CORDEX files are projected on rlat/rlon coordinates system 
  
  2- Using the transformed coordinate, find the closest grid point in NETCDF file to the target coordinate location and extract climate variables for each year 
